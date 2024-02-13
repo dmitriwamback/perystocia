@@ -1,13 +1,57 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="res/styles/main.css">
-        <title>QueryL</title>
+        <link rel="stylesheet" href="styles/css/style.css">
+        <link rel="stylesheet" href="styles/css/product.css">
+        <link rel="stylesheet" href="styles/css/scaling.css">
+        <link rel="stylesheet" href="styles/css/nav.css">
+        <link rel="icon" type="image/png" href="styles/images/qdr.png"/>
+
+        <title>Queryl</title>
+        <script src="scripts/other.js"></script>
+        <script src="scripts/perlinnoise.js"></script>
+        <script defer src="scripts/main_country_loader.js"></script>
+        <script src="scripts/shader.js"></script>
+        <script src="scripts/gl-matrix.js"></script>
+        <script src="scripts/main_terrain.js" defer></script>
     </head>
-    <body>
-        <div id="slanted">
-            <div id="queryl-icon"></div>
+    <body id="appearence-dark">
+        <div id="content-wrapper">
+            <div id="logo">
+            </div>
         </div>
-        <div id='game-title-section'>Hi</div>
+        <canvas id="backgroundgl">
+        </canvas>
+        <div id="content" style="display: inline-block;">
+            <div style="width: 350px; margin: auto; text-align: center; margin-top: 400px; font-size: 20px; user-select: none; position: relative;">Dmitri Wamback - Queryl</div>
+            <div style="width: 350px; margin: auto; text-align: center; margin-top: 10px; font-size: 14px; user-select: none; position: relative;">"e" for random countries, "q" for all countries</div>
+        </div>
+        <div id="info-container">
+            <div id="info-flag" class="darkflag">
+                <div id="info-name">Hi</div>
+                <div id="info-description" style="white-space:pre-line;">
+                    text
+                </div>
+            </div>
+            <div id="info-flag" class="darkflag">
+                <div id="info-name">Hi</div>
+                <div id="info-description" style="white-space:pre-line;">
+                    text
+                </div>
+            </div>
+        </div>
+        <div id="product-container">
+            <div id="flag" class="darkflag"><span id="doa1"></span>
+                <div id="product-name">Day of Armistice
+                    <div id="product-description">Day of Armistice, a game about espionage</span></div>
+                    <div id="product-description">SWAH'G: Sovereignty of Wkrow-Arijat-Havknat'Gzeva (?)</div>
+                    <div id="product-description">PCS: Pact of Central Security</div>
+                    <div id="product-description">+Technologies: OpenGL 4.1, MetalKit</div>
+                </div>
+            </div>
+            <div id="flag" class="doa1 darkflag"></div>
+            <div id="flag" class="doa2 darkflag"></div>
+        </div>
+        <div id="footer"></div>
     </body>
 </html>

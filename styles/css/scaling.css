@@ -1,0 +1,83 @@
+@media (max-width: 1650px) {
+    #flag {
+        overflow: scroll;
+        height: 500px;
+    }
+    #product-description {
+        margin-top: 7px;
+        font-size: 18px;
+    }
+    #product-name {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1085px) {
+    #qdrinfo {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        margin-top: 400px;
+        width: 450px;
+        font-size: 20px;
+    }
+    .dropdown {
+        margin: auto;
+        width: 100%;
+    }
+    .dropbtn {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .dropdown-content {
+        width: 100%;
+    }
+
+
+    #blogo {
+        display: block;
+        float: none;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1050px) {
+    #flag {
+        display: block;
+        border: 0px;
+    }
+    #product-container {
+        display: inline-block;
+    }
+    #info-description {
+        width: 80%;
+    }
+}
+
+@media (max-width: 950px) {
+    #info-container {
+        display: inline-block;
+        float: none;
+        margin: auto;
+    }
+    #info-flag {
+        display: inline-block;
+    }
+}
+
+
+@media (max-width: 810px) {
+    #blogo {
+        display: block;
+        float: none;
+        margin: auto;
+    }
+}
+
+@media (max-width: 460px) {
+    #blogo {
+        width: 380px;
+        height: 380px;
+    }
+}

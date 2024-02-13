@@ -1,0 +1,65 @@
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+    width: 150px;
+    margin-top: 15px;
+    background-color: rgb(14, 18, 24);
+    transition: color 0.2s ease-in-out;
+}
+.dropbtn:hover {
+    color: rgb(46, 91, 173);
+}
+  
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: rgb(14, 18, 24);
+width: 300px;
+z-index: 1;
+border-radius: 5px;
+}
+
+.dropdown-content a {
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+transition: color 0.2s ease-in-out;
+}
+
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+#dropdown-button {
+font-size: 12px;
+height: 20px;
+color: inherit;
+transition: color background-color 0.2s ease-in-out;
+}
+
+#dropdown-button:hover {
+color: rgb(46, 91, 173);
+background-color: rgb(27, 33, 43)
+}
+
+#checked-mark {
+    color: rgb(87, 108, 183);
+    float: right;
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+    background-color: rgb(125, 193, 232);
+    border-radius: 10px;
+    text-align: center;
+}
