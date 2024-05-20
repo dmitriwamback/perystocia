@@ -85,46 +85,11 @@
 
 
 .doa1 {
-    background-image: url('./../images/bgdoa.png');
+    background-image: url('./../images/DOA_EN.png');
 }
-.doa2 {
-    background-image: url('./../images/bgdoa1.png');
+.go1 {
+    background-image: url('./../images/GOR_EN.png');
 }
 .mi1 {
-    background-image: url('./../images/mi1.jpeg');
-}
-.cae1 {
-    background-image: url('./../images/cae1.png');
-}
-.zhyvnael1 {
-    background-image: url('./../images/zhyvnael1.png');
-}
-.zhyvnael2 {
-    background-image: url('./../images/zhyvnael2.png');
-}
-.k1 {
-    image-rendering: unset;
-    background-image: url('./../images/urd.png');
-}
-
-
-
-
-
-
-.doa-icon {
-    background-image: url('./../icons/doaicon.png');
-    background-size: contain;
-}
-.urd-icon {
-    background-image: url('./../icons/urdicon.png');
-    background-size: contain;
-}
-.cae-icon {
-    background-image: url('./../icons/caeicon.png');
-    background-size: contain;
-}
-.zh-icon {
-    background-image: url('./../icons/zhicon.png');
-    background-size: contain;
+    background-image: url('./../images/MID.png');
 }
