@@ -7,7 +7,7 @@
     text-transform: uppercase;
 }
 #info-description {
-    width: 530px;
+    width: calc(100% - 200px);
     margin: auto;
     font-size: 18px;
     overflow: scroll;
