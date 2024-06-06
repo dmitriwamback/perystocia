@@ -229,3 +229,14 @@ body {
     background-color: rgb(255, 195, 56);
     color: black;
 }
+
+#button {
+    display: inline-block;
+    color: white;
+    transition: color 0.2s ease-in-out;
+    text-decoration: underline;
+}
+#button:hover {
+    color: rgb(51, 175, 228);
+    cursor: pointer;
+}
