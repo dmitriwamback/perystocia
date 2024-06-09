@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600&family=Quantico:wght@400;700&family=Special+Elite&family=Wix+Madefor+Text:wght@400;500;600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(106, 126, 136);
+    transition: color 0.2s ease-in-out;
+}
+a:hover {
+    color: rgb(46, 91, 173)
+}
+
+:root {
+    --bright-flag-background-color: rgb(255, 255, 255);
+    --bright-flag-text-color: rgb(94, 91, 93);
+    --dark-flag-background-color: rgb(14, 18, 24);
+    --dark-flag-text-color: white;
+}
+::selection {
+    background: rgb(255, 195, 56);
+    color: black;
+}
+#appearence-alternate {
+    --bright-flag-background-color: rgb(255, 255, 255);
+    --bright-flag-text-color: rgb(94, 91, 93);
+    --dark-flag-background-color: rgb(14, 18, 24);
+    --dark-flag-text-color: white;
+}
+#appearence-dark {
+    --bright-flag-background-color: rgb(9, 11, 14);
+    --bright-flag-text-color: white;
+    --dark-flag-background-color: rgb(14, 18, 24);
+    --dark-flag-text-color: white;
+}
+#appearence-bright {
+    --bright-flag-background-color: rgb(255, 255, 255);
+    --bright-flag-text-color: rgb(94, 91, 93);
+    --dark-flag-background-color: white;
+    --dark-flag-text-color: rgb(94, 91, 93);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+    background-color: rgb(14, 18, 24);
+    color: rgb(94, 91, 93);
+    font-family: 'Wix Madefor Text', sans-serif;
+    --body-width: 100%
+}
+
+#main-image {
+    width: 100%;
+    height: 1000px;
+    background-image: url('./../images/main.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    image-rendering: pixelated;
+    display: inline-block;
+}
+
+#title-text {
+    background-color: rgb(255, 195, 56);
+    font-size: 3em;
+    width: 300px;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    margin-top: 400px;
+    margin-left: calc(50% - 150px);
+}
