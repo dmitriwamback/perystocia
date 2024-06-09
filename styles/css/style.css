@@ -129,7 +129,18 @@ body {
     border: 0px;
     overflow: scroll;
 }
-
+.qdr {
+    background-image: url('./../images/qdr.png');
+    background-position: 50% 50%;
+}
+.srsq {
+    background-image: url('./../images/srsq.png');
+    background-position: 50% 50%;
+}
+.swahg {
+    background-image: url('./../images/swahg.png');
+    background-position: 50% 50%;
+}
 
 
 .darkflag {
