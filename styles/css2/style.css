@@ -55,11 +55,11 @@ body {
 #main-image {
     width: 100%;
     height: 1000px;
-    background-image: url('./../images/main.jpeg');
+    background-image: url('./../images/main.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    image-rendering: pixelated;
+    image-rendering:crisp-edges;
     display: inline-block;
 }
 
